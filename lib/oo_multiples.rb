@@ -16,6 +16,12 @@ class Multiples
     return return_a
   end
 
+  #used modified function from above
+  # instead of putting #collect_multiples
+  # inside of sum_multiples so that
+  # O factor is smaller
+
+
   def sum_multiples
     return_sum = 0
     (1...@limit).each do |i|
