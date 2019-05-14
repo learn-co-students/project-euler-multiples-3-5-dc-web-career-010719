@@ -5,6 +5,9 @@ if i % 3 === 0 || i % 5 === 0
   output << i
 end
 }
-output
+return output
+end
 
+def sum_multiples(limit)
+  sum = collect_multiples(limit).inject{|x,y| x+y}
 end
